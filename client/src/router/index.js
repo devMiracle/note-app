@@ -8,7 +8,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {path:'/',name:'AppMain',component:App},
+    {path:'/',component:App},
     {path:'/app',name:'AppMain',component:App},
     {path:'/login',name:'SignIn',component:SignIn},
     {path:'/register',name:'Register',component:SignUp}
